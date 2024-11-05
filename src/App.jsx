@@ -21,7 +21,7 @@ import productimg3 from './assets/productimg3.png'
 import productimg4 from './assets/productimg4.png'
 import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
-import PrevArrow from './components/Prevarrow'
+import PrevArrow from './components/PrevArrow'
 import NextArrow from './components/NextArrow'
 
 
