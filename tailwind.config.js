@@ -23,6 +23,7 @@ export default {
       },
       backgroundImage: {
         'banner': "url('./assets/banner.png')",
+        'Adspart2': "url('./assets/Ads_part2.png')",
       },
     },
   },

@@ -8,7 +8,7 @@ import ad_3 from './assets/Ad_3.jpg'
 import Menu from './components/Menu'
 import Flex from './components/Flex'
 import { HiMenuAlt2 } from "react-icons/hi";
-import { FaSearch, FaUser, FaShoppingCart, FaUndoAlt } from "react-icons/fa";
+import { FaSearch, FaUser, FaShoppingCart, FaUndoAlt, FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { TiArrowSortedDown } from "react-icons/ti";
 import { PiNumberTwoBold } from "react-icons/pi";
 import { FaVanShuttle } from "react-icons/fa6";
@@ -19,10 +19,19 @@ import productimg1 from './assets/productimg1.jpg'
 import productimg2 from './assets/productimg2.png'
 import productimg3 from './assets/productimg3.png'
 import productimg4 from './assets/productimg4.png'
+import productBimgone from './assets/productBimgone.png'
+import productBimgtwo from './assets/productBimgtwo.png'
+import productBimgthree from './assets/productBimgthree.png'
+import productBimgfour from './assets/productBimgfour.png'
+import productSimgone from './assets/productSimgone.png'
+import productSimgtwo from './assets/productSimgtwo.png'
+import productSimgthree from './assets/productSimgthree.png'
+import productSimgfour from './assets/productSimgfour.png'
 import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
 import PrevArrow from './components/PrevArrow'
 import NextArrow from './components/NextArrow'
+// import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 
 function App() {
@@ -166,6 +175,156 @@ function App() {
         </Container>
       </div>
       {/* Product Slider Part End */}
+
+      {/* Product Bestsellers Part Start */}
+      <div className='py-[70px]'>
+        <Container className={'max-w-headerContainer'}>
+          <Heading as={'h3'} className={'font-bold font-dms text-TextHColor text-[39px] pb-[58px] pl-2'} text={'Our Bestsellers'} />
+       <Flex className={'justify-between'}>
+            <div className='w-[24%] bg-white relative group'>
+              <Image imgSrc={productBimgone} imgAlt={productBimgone}/>
+              <Product />
+              <Flex className={'justify-between items-center mt-[30px]'}>
+                <Heading as={'h5'} text={'Basic Crew Neck Tee'} className={'font-dms font-bold text-xl text-TextHColor'} />
+                <Heading as={'h6'} text={'$44.00'} className={'font-dms text-[16px] text-TextColor'} />
+              </Flex>
+                <Heading as={'h6'} text={'Black'} className={'font-dms text-[16px] text-TextColor mt-[20px]'} />
+            </div>
+            <div className='w-[24%] bg-white relative group'>
+              <Image imgSrc={productBimgtwo} imgAlt={productBimgtwo}/>
+              <Product />
+              <Flex className={'justify-between items-center mt-[30px]'}>
+                <Heading as={'h5'} text={'Basic Crew Neck Tee'} className={'font-dms font-bold text-xl text-TextHColor'} />
+                <Heading as={'h6'} text={'$44.00'} className={'font-dms text-[16px] text-TextColor'} />
+              </Flex>
+                <Heading as={'h6'} text={'Black'} className={'font-dms text-[16px] text-TextColor mt-[20px]'} />
+            </div>
+            <div className='w-[24%] bg-white relative group'>
+              <Image imgSrc={productBimgthree} imgAlt={productBimgthree}/>
+              <Product />
+              <Flex className={'justify-between items-center mt-[30px]'}>
+                <Heading as={'h5'} text={'Basic Crew Neck Tee'} className={'font-dms font-bold text-xl text-TextHColor'} />
+                <Heading as={'h6'} text={'$44.00'} className={'font-dms text-[16px] text-TextColor'} />
+              </Flex>
+                <Heading as={'h6'} text={'Black'} className={'font-dms text-[16px] text-TextColor mt-[20px]'} />
+            </div>
+            <div className='w-[24%] bg-white relative group'>
+              <Image imgSrc={productBimgfour} imgAlt={productBimgfour}/>
+              <Product />
+              <Flex className={'justify-between items-center mt-[30px]'}>
+                <Heading as={'h5'} text={'Basic Crew Neck Tee'} className={'font-dms font-bold text-xl text-TextHColor'} />
+                <Heading as={'h6'} text={'$44.00'} className={'font-dms text-[16px] text-TextColor'} />
+              </Flex>
+                <Heading as={'h6'} text={'Black'} className={'font-dms text-[16px] text-TextColor mt-[20px]'} />
+              </div>
+         </Flex>
+      </Container>
+      </div>
+      {/* Product Bestsellers Part End */}
+
+      {/* Ads Part 2 Banner Start */}
+      <div className='py-[70px]'>
+        <Container className={'max-w-headerContainer'}>
+          <Anchor href={'#'} target={'_blank'}>
+          <div className="bg-Adspart2 bg-center bg-cover bg-no-repeat py-[140px]"></div>
+          </Anchor>
+        </Container>
+      </div>
+      {/* Ads Part 2 Banner End */}
+
+      {/* Product Special Offers Part Start */}
+      <div className='pt-[70px] pb-[140px]'>
+        <Container className={'max-w-headerContainer'}>
+          <Heading as={'h3'} className={'font-bold font-dms text-TextHColor text-[39px] pb-[58px] pl-2'} text={'Special Offers'} />
+       <Flex className={'justify-between'}>
+            <div className='w-[24%] bg-white relative group'>
+              <Image imgSrc={productSimgone} imgAlt={productSimgone}/>
+              <Product />
+              <Flex className={'justify-between items-center mt-[30px]'}>
+                <Heading as={'h5'} text={'Basic Crew Neck Tee'} className={'font-dms font-bold text-xl text-TextHColor'} />
+                <Heading as={'h6'} text={'$44.00'} className={'font-dms text-[16px] text-TextColor'} />
+              </Flex>
+                <Heading as={'h6'} text={'Black'} className={'font-dms text-[16px] text-TextColor mt-[20px]'} />
+            </div>
+            <div className='w-[24%] bg-white relative group'>
+              <Image imgSrc={productSimgtwo} imgAlt={productSimgtwo}/>
+              <Product />
+              <Flex className={'justify-between items-center mt-[30px]'}>
+                <Heading as={'h5'} text={'Basic Crew Neck Tee'} className={'font-dms font-bold text-xl text-TextHColor'} />
+                <Heading as={'h6'} text={'$44.00'} className={'font-dms text-[16px] text-TextColor'} />
+              </Flex>
+                <Heading as={'h6'} text={'Black'} className={'font-dms text-[16px] text-TextColor mt-[20px]'} />
+            </div>
+            <div className='w-[24%] bg-white relative group'>
+              <Image imgSrc={productSimgthree} imgAlt={productSimgthree}/>
+              <Product />
+              <Flex className={'justify-between items-center mt-[30px]'}>
+                <Heading as={'h5'} text={'Basic Crew Neck Tee'} className={'font-dms font-bold text-xl text-TextHColor'} />
+                <Heading as={'h6'} text={'$44.00'} className={'font-dms text-[16px] text-TextColor'} />
+              </Flex>
+                <Heading as={'h6'} text={'Black'} className={'font-dms text-[16px] text-TextColor mt-[20px]'} />
+            </div>
+            <div className='w-[24%] bg-white relative group'>
+              <Image imgSrc={productSimgfour} imgAlt={productSimgfour}/>
+              <Product />
+              <Flex className={'justify-between items-center mt-[30px]'}>
+                <Heading as={'h5'} text={'Basic Crew Neck Tee'} className={'font-dms font-bold text-xl text-TextHColor'} />
+                <Heading as={'h6'} text={'$44.00'} className={'font-dms text-[16px] text-TextColor'} />
+              </Flex>
+                <Heading as={'h6'} text={'Black'} className={'font-dms text-[16px] text-TextColor mt-[20px]'} />
+              </div>
+         </Flex>
+      </Container>
+      </div>
+      {/* Product Special Offers Part End */}
+
+      {/* Footer Part Start */}
+      <div className='bg-CategoryBG py-[60px]'>
+        <Container className={'max-w-headerContainer'}>
+          <Flex className={'justify-between'}>
+            <div className='w-[130px]'>
+              <Heading as={'h4'} text={'MENU'} className={'font-dms font-bold text-[16px] text-TextHColor pb-[15px]'} />
+              <Heading as={'p'} text={'Home'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
+              <Heading as={'p'} text={'Shop'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
+              <Heading as={'p'} text={'About'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
+              <Heading as={'p'} text={'Contact'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
+              <Heading as={'p'} text={'Journal'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
+            </div>
+            <div className='w-[130px]'>
+              <Heading as={'h4'} text={'SHOP'} className={'font-dms font-bold text-[16px] text-TextHColor pb-[15px]'} />
+              <Heading as={'p'} text={'Category 1'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
+              <Heading as={'p'} text={'Category 2'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
+              <Heading as={'p'} text={'Category 3'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
+              <Heading as={'p'} text={'Category 4'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
+              <Heading as={'p'} text={'Category 5'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
+            </div>
+            <div className='w-[130px]'>
+              <Heading as={'h4'} text={'HELP'} className={'font-dms font-bold text-[16px] text-TextHColor pb-[15px]'} />
+              <Heading as={'p'} text={'Privacy Policy'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
+              <Heading as={'p'} text={'Terms & Conditions'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
+              <Heading as={'p'} text={'Special E-shop'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
+              <Heading as={'p'} text={'Shipping'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
+              <Heading as={'p'} text={'Secure Payments'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
+            </div>
+            <div className='w-[260px]'>
+              <Heading as={'h4'} text={'(052) 611-5711 company@domain.com'} className={'font-dms font-bold text-[16px] text-TextHColor pb-[15px]'} />
+              <Heading as={'p'} text={'575 Crescent Ave. Quakertown, PA 18951'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
+            </div>
+            <div className='w-[200px]'>
+              <Image imgSrc={Logo} imgAlt={Logo}/>
+            </div>
+          </Flex>
+          <Flex className={'items-center justify-between pt-[70px]'}>
+            <Flex className='w-[95px] justify-between'>
+              <FaFacebookF /> <FaLinkedinIn /> <FaInstagram />
+            </Flex>
+            <div className='w-[390px]'>
+              <Heading as={'p'} text={'2020 Orebi Minimal eCommerce Figma Template by Adveits'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
+            </div>
+          </Flex>
+        </Container>
+      </div>
+      {/* Footer Part End */}
     </>
   )
 }

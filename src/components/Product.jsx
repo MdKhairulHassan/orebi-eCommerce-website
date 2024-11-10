@@ -13,10 +13,10 @@ const Product = () => {
         <Flex className={'justify-end gap-x-3 items-center pb-2'}>
           <Heading as={'h5'} text={'Add to Wish List'} className={'hover:text-TextHColor hover:font-bold text-TextColor'}/> <FaHeart/>
         </Flex>
-        <Flex className={'justify-end gap-x-3 group items-center pb-2'}>
+        <Flex className={'justify-end gap-x-3 items-center pb-2'}>
           <Heading as={'h5'} text={'Compare'} className={'hover:text-TextHColor hover:font-bold text-TextColor'}/> <FaCodeCompare/>
         </Flex>
-        <Flex className={'justify-end gap-x-3 group items-center'}>
+        <Flex className={'justify-end gap-x-3 items-center'}>
           <Heading as={'h5'} text={'Add to Cart'} className={'hover:text-TextHColor hover:font-bold text-TextColor'}/> <FaShoppingCart/>
         </Flex>
       </div>
