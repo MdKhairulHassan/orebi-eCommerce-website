@@ -31,6 +31,7 @@ import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
 import PrevArrow from './components/PrevArrow'
 import NextArrow from './components/NextArrow'
+import Footertexts from './components/Footertexts'
 // import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 
@@ -136,41 +137,53 @@ function App() {
           <Heading as={'h3'} className={'font-bold font-dms text-TextHColor text-[39px] pb-[58px] pl-2'} text={'New Arrivals'} />
           <Slider {...settings}>
             <div className='w-[24%] bg-white relative group px-2'>
-              <Image imgSrc={productimg1} imgAlt={productimg1}/>
-              <Product />
-              <Flex className={'justify-between items-center mt-[30px]'}>
-                <Heading as={'h5'} text={'Basic Crew Neck Tee'} className={'font-dms font-bold text-xl text-TextHColor'} />
-                <Heading as={'h6'} text={'$44.00'} className={'font-dms text-[16px] text-TextColor'} />
-              </Flex>
-                <Heading as={'h6'} text={'Black'} className={'font-dms text-[16px] text-TextColor mt-[20px]'} />
+              <Product
+                imgSrc={productimg1}
+                badge='New'
+                para={'Add to Wish List'}
+                para2={'Compare'}
+                para3={'Add to Cart'}
+                para4={'Basic Crew Neck Tee'}
+                para5={'$44.00'}
+                para6={'Black'}
+              />
             </div>
             <div className='w-[24%] bg-white relative group px-2'>
-              <Image imgSrc={productimg2} imgAlt={productimg2}/>
-              <Product />
-              <Flex className={'justify-between items-center mt-[30px]'}>
-                <Heading as={'h5'} text={'Basic Crew Neck Tee'} className={'font-dms font-bold text-xl text-TextHColor'} />
-                <Heading as={'h6'} text={'$44.00'} className={'font-dms text-[16px] text-TextColor'} />
-              </Flex>
-                <Heading as={'h6'} text={'Black'} className={'font-dms text-[16px] text-TextColor mt-[20px]'} />
+              <Product
+                imgSrc={productimg2}
+                badge='New'
+                para={'Add to Wish List'}
+                para2={'Compare'}
+                para3={'Add to Cart'}
+                para4={'Basic Crew Neck Tee'}
+                para5={'$44.00'}
+                para6={'Black'}
+              />
             </div>
             <div className='w-[24%] bg-white relative group px-2'>
-              <Image imgSrc={productimg3} imgAlt={productimg3}/>
-              <Product />
-              <Flex className={'justify-between items-center mt-[30px]'}>
-                <Heading as={'h5'} text={'Basic Crew Neck Tee'} className={'font-dms font-bold text-xl text-TextHColor'} />
-                <Heading as={'h6'} text={'$44.00'} className={'font-dms text-[16px] text-TextColor'} />
-              </Flex>
-                <Heading as={'h6'} text={'Black'} className={'font-dms text-[16px] text-TextColor mt-[20px]'} />
+              <Product
+                imgSrc={productimg3}
+                badge='New'
+                para={'Add to Wish List'}
+                para2={'Compare'}
+                para3={'Add to Cart'}
+                para4={'Basic Crew Neck Tee'}
+                para5={'$44.00'}
+                para6={'Black'}
+              />
             </div>
             <div className='w-[24%] bg-white relative group px-2'>
-              <Image imgSrc={productimg4} imgAlt={productimg4}/>
-              <Product />
-              <Flex className={'justify-between items-center mt-[30px]'}>
-                <Heading as={'h5'} text={'Basic Crew Neck Tee'} className={'font-dms font-bold text-xl text-TextHColor'} />
-                <Heading as={'h6'} text={'$44.00'} className={'font-dms text-[16px] text-TextColor'} />
-              </Flex>
-                <Heading as={'h6'} text={'Black'} className={'font-dms text-[16px] text-TextColor mt-[20px]'} />
-              </div>
+              <Product
+                imgSrc={productimg4}
+                badge='New'
+                para={'Add to Wish List'}
+                para2={'Compare'}
+                para3={'Add to Cart'}
+                para4={'Basic Crew Neck Tee'}
+                para5={'$44.00'}
+                para6={'Black'}
+              />
+            </div>
          </Slider>
         </Container>
       </div>
@@ -182,41 +195,53 @@ function App() {
           <Heading as={'h3'} className={'font-bold font-dms text-TextHColor text-[39px] pb-[58px] pl-2'} text={'Our Bestsellers'} />
        <Flex className={'justify-between'}>
             <div className='w-[24%] bg-white relative group'>
-              <Image imgSrc={productBimgone} imgAlt={productBimgone}/>
-              <Product />
-              <Flex className={'justify-between items-center mt-[30px]'}>
-                <Heading as={'h5'} text={'Basic Crew Neck Tee'} className={'font-dms font-bold text-xl text-TextHColor'} />
-                <Heading as={'h6'} text={'$44.00'} className={'font-dms text-[16px] text-TextColor'} />
-              </Flex>
-                <Heading as={'h6'} text={'Black'} className={'font-dms text-[16px] text-TextColor mt-[20px]'} />
+              <Product
+                imgSrc={productBimgone}
+                badge='New'
+                para={'Add to Wish List'}
+                para2={'Compare'}
+                para3={'Add to Cart'}
+                para4={'Basic Crew Neck Tee'}
+                para5={'$44.00'}
+                para6={'Black'}
+              />
             </div>
             <div className='w-[24%] bg-white relative group'>
-              <Image imgSrc={productBimgtwo} imgAlt={productBimgtwo}/>
-              <Product />
-              <Flex className={'justify-between items-center mt-[30px]'}>
-                <Heading as={'h5'} text={'Basic Crew Neck Tee'} className={'font-dms font-bold text-xl text-TextHColor'} />
-                <Heading as={'h6'} text={'$44.00'} className={'font-dms text-[16px] text-TextColor'} />
-              </Flex>
-                <Heading as={'h6'} text={'Black'} className={'font-dms text-[16px] text-TextColor mt-[20px]'} />
+              <Product
+                imgSrc={productBimgtwo}
+                badge='New'
+                para={'Add to Wish List'}
+                para2={'Compare'}
+                para3={'Add to Cart'}
+                para4={'Basic Crew Neck Tee'}
+                para5={'$44.00'}
+                para6={'Black'}
+              />
             </div>
             <div className='w-[24%] bg-white relative group'>
-              <Image imgSrc={productBimgthree} imgAlt={productBimgthree}/>
-              <Product />
-              <Flex className={'justify-between items-center mt-[30px]'}>
-                <Heading as={'h5'} text={'Basic Crew Neck Tee'} className={'font-dms font-bold text-xl text-TextHColor'} />
-                <Heading as={'h6'} text={'$44.00'} className={'font-dms text-[16px] text-TextColor'} />
-              </Flex>
-                <Heading as={'h6'} text={'Black'} className={'font-dms text-[16px] text-TextColor mt-[20px]'} />
+              <Product
+                imgSrc={productBimgthree}
+                badge='New'
+                para={'Add to Wish List'}
+                para2={'Compare'}
+                para3={'Add to Cart'}
+                para4={'Basic Crew Neck Tee'}
+                para5={'$44.00'}
+                para6={'Black'}
+              />
             </div>
             <div className='w-[24%] bg-white relative group'>
-              <Image imgSrc={productBimgfour} imgAlt={productBimgfour}/>
-              <Product />
-              <Flex className={'justify-between items-center mt-[30px]'}>
-                <Heading as={'h5'} text={'Basic Crew Neck Tee'} className={'font-dms font-bold text-xl text-TextHColor'} />
-                <Heading as={'h6'} text={'$44.00'} className={'font-dms text-[16px] text-TextColor'} />
-              </Flex>
-                <Heading as={'h6'} text={'Black'} className={'font-dms text-[16px] text-TextColor mt-[20px]'} />
-              </div>
+              <Product
+                imgSrc={productBimgfour}
+                badge='New'
+                para={'Add to Wish List'}
+                para2={'Compare'}
+                para3={'Add to Cart'}
+                para4={'Basic Crew Neck Tee'}
+                para5={'$44.00'}
+                para6={'Black'}
+              />
+            </div>
          </Flex>
       </Container>
       </div>
@@ -232,99 +257,122 @@ function App() {
       </div>
       {/* Ads Part 2 Banner End */}
 
-      {/* Product Special Offers Part Start */}
+       {/* Product Special Offers Part Start */}
       <div className='pt-[70px] pb-[140px]'>
         <Container className={'max-w-headerContainer'}>
           <Heading as={'h3'} className={'font-bold font-dms text-TextHColor text-[39px] pb-[58px] pl-2'} text={'Special Offers'} />
        <Flex className={'justify-between'}>
             <div className='w-[24%] bg-white relative group'>
-              <Image imgSrc={productSimgone} imgAlt={productSimgone}/>
-              <Product />
-              <Flex className={'justify-between items-center mt-[30px]'}>
-                <Heading as={'h5'} text={'Basic Crew Neck Tee'} className={'font-dms font-bold text-xl text-TextHColor'} />
-                <Heading as={'h6'} text={'$44.00'} className={'font-dms text-[16px] text-TextColor'} />
-              </Flex>
-                <Heading as={'h6'} text={'Black'} className={'font-dms text-[16px] text-TextColor mt-[20px]'} />
+              <Product
+                imgSrc={productSimgone}
+                badge='New'
+                para={'Add to Wish List'}
+                para2={'Compare'}
+                para3={'Add to Cart'}
+                para4={'Basic Crew Neck Tee'}
+                para5={'$44.00'}
+                para6={'Black'}
+              />
             </div>
             <div className='w-[24%] bg-white relative group'>
-              <Image imgSrc={productSimgtwo} imgAlt={productSimgtwo}/>
-              <Product />
-              <Flex className={'justify-between items-center mt-[30px]'}>
-                <Heading as={'h5'} text={'Basic Crew Neck Tee'} className={'font-dms font-bold text-xl text-TextHColor'} />
-                <Heading as={'h6'} text={'$44.00'} className={'font-dms text-[16px] text-TextColor'} />
-              </Flex>
-                <Heading as={'h6'} text={'Black'} className={'font-dms text-[16px] text-TextColor mt-[20px]'} />
+              <Product
+                imgSrc={productSimgtwo}
+                badge='New'
+                para={'Add to Wish List'}
+                para2={'Compare'}
+                para3={'Add to Cart'}
+                para4={'Basic Crew Neck Tee'}
+                para5={'$44.00'}
+                para6={'Black'}
+              />
             </div>
             <div className='w-[24%] bg-white relative group'>
-              <Image imgSrc={productSimgthree} imgAlt={productSimgthree}/>
-              <Product />
-              <Flex className={'justify-between items-center mt-[30px]'}>
-                <Heading as={'h5'} text={'Basic Crew Neck Tee'} className={'font-dms font-bold text-xl text-TextHColor'} />
-                <Heading as={'h6'} text={'$44.00'} className={'font-dms text-[16px] text-TextColor'} />
-              </Flex>
-                <Heading as={'h6'} text={'Black'} className={'font-dms text-[16px] text-TextColor mt-[20px]'} />
+              <Product
+                imgSrc={productSimgthree}
+                badge='New'
+                para={'Add to Wish List'}
+                para2={'Compare'}
+                para3={'Add to Cart'}
+                para4={'Basic Crew Neck Tee'}
+                para5={'$44.00'}
+                para6={'Black'}
+              />
             </div>
             <div className='w-[24%] bg-white relative group'>
-              <Image imgSrc={productSimgfour} imgAlt={productSimgfour}/>
-              <Product />
-              <Flex className={'justify-between items-center mt-[30px]'}>
-                <Heading as={'h5'} text={'Basic Crew Neck Tee'} className={'font-dms font-bold text-xl text-TextHColor'} />
-                <Heading as={'h6'} text={'$44.00'} className={'font-dms text-[16px] text-TextColor'} />
-              </Flex>
-                <Heading as={'h6'} text={'Black'} className={'font-dms text-[16px] text-TextColor mt-[20px]'} />
-              </div>
+              <Product
+                imgSrc={productSimgfour}
+                badge='New'
+                para={'Add to Wish List'}
+                para2={'Compare'}
+                para3={'Add to Cart'}
+                para4={'Basic Crew Neck Tee'}
+                para5={'$44.00'}
+                para6={'Black'}
+              />
+            </div>
          </Flex>
       </Container>
       </div>
       {/* Product Special Offers Part End */}
 
-      {/* Footer Part Start */}
+       {/* Footer Part Start */}
       <div className='bg-CategoryBG py-[60px]'>
         <Container className={'max-w-headerContainer'}>
           <Flex className={'justify-between'}>
             <div className='w-[130px]'>
-              <Heading as={'h4'} text={'MENU'} className={'font-dms font-bold text-[16px] text-TextHColor pb-[15px]'} />
-              <Heading as={'p'} text={'Home'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
-              <Heading as={'p'} text={'Shop'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
-              <Heading as={'p'} text={'About'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
-              <Heading as={'p'} text={'Contact'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
-              <Heading as={'p'} text={'Journal'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
+              <Footertexts
+                Fhead={'MENU'}
+                Pone={'Home'}
+                Ptwo={'Shop'}
+                Pthree={'About'}
+                Pfour={'Contact'}
+                Pfive={'Journal'}
+              />
             </div>
             <div className='w-[130px]'>
-              <Heading as={'h4'} text={'SHOP'} className={'font-dms font-bold text-[16px] text-TextHColor pb-[15px]'} />
-              <Heading as={'p'} text={'Category 1'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
-              <Heading as={'p'} text={'Category 2'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
-              <Heading as={'p'} text={'Category 3'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
-              <Heading as={'p'} text={'Category 4'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
-              <Heading as={'p'} text={'Category 5'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
+              <Footertexts
+                Fhead={'SHOP'}
+                Pone={'Category 1'}
+                Ptwo={'Category 2'}
+                Pthree={'Category 3'}
+                Pfour={'Category 4'}
+                Pfive={'Category 5'}
+              />
             </div>
             <div className='w-[130px]'>
-              <Heading as={'h4'} text={'HELP'} className={'font-dms font-bold text-[16px] text-TextHColor pb-[15px]'} />
-              <Heading as={'p'} text={'Privacy Policy'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
-              <Heading as={'p'} text={'Terms & Conditions'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
-              <Heading as={'p'} text={'Special E-shop'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
-              <Heading as={'p'} text={'Shipping'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
-              <Heading as={'p'} text={'Secure Payments'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
+             <Footertexts
+                Fhead={'HELP'}
+                Pone={'Privacy Policy'}
+                Ptwo={'Terms & Conditions'}
+                Pthree={'Special E-shop'}
+                Pfour={'Shipping'}
+                Pfive={'Secure Payments'}
+              />
             </div>
             <div className='w-[260px]'>
-              <Heading as={'h4'} text={'(052) 611-5711 company@domain.com'} className={'font-dms font-bold text-[16px] text-TextHColor pb-[15px]'} />
-              <Heading as={'p'} text={'575 Crescent Ave. Quakertown, PA 18951'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
+              <Footertexts
+                Fhead={'(052) 611-5711 company@domain.com'}
+                Pone={'575 Crescent Ave. Quakertown, PA 18951'}
+              />
             </div>
             <div className='w-[200px]'>
               <Image imgSrc={Logo} imgAlt={Logo}/>
             </div>
           </Flex>
           <Flex className={'items-center justify-between pt-[70px]'}>
-            <Flex className='w-[95px] justify-between'>
+            <Flex className='w-[95px] justify-between pt-[70px]'>
               <FaFacebookF /> <FaLinkedinIn /> <FaInstagram />
             </Flex>
             <div className='w-[390px]'>
-              <Heading as={'p'} text={'2020 Orebi Minimal eCommerce Figma Template by Adveits'} className={'font-dms text-[14px] text-InformationColor py-[5px]'} />
+              <Footertexts
+                Psix={'2020 Orebi Minimal eCommerce Figma Template by Adveits'}
+              />
             </div>
           </Flex>
         </Container>
       </div>
       {/* Footer Part End */}
+      
     </>
   )
 }
