@@ -5,7 +5,7 @@ import Flex from './Flex';
 import Heading from './Heading';
 import { FaCodeCompare } from "react-icons/fa6";
 import Image from './Image';
-import Paragraph from './paragraph';
+import Paragraph from './Paragraph';
 
 const Product = ({badge, imgSrc, para, para2, para3, para4, para5, para6}) => {
   return (
